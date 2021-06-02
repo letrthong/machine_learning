@@ -8,9 +8,16 @@ import scipy as sp
 # importing the required module 
 import matplotlib.pyplot as plt 
 
-a = np.array([1,3,-2,1])
-print(a)
+P = np.array([[6, 5, 3, 1], 
+    [3, 6, 2, 2],
+    [3, 4, 3, 2]])
 
-t = sp.linspace(0, 1, 100)
-plt.plot(t, t**2)
-plt.show()
+Q  =  np.array([[1.50, 1,00],
+        [2.00, 2.50],
+        [5.00, 4.50],
+        [16.00, 17.0]])
+
+print(P)
+#print(Q)
+R = P*Q
+print(R)
