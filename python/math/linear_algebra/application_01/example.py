@@ -22,5 +22,5 @@ print("")
 print(Q)
 print("")
 #R = np.dot(P, Q)
-R = P.dot(Q).T
+R = P.dot(Q) 
 print(R)
