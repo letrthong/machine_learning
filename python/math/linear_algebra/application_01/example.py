@@ -18,6 +18,9 @@ Q  =  np.array([[1.50, 1,00],
         [16.00, 17.0]])
 
 print(P)
-#print(Q)
-R = P*Q
+print("")
+print(Q)
+print("")
+#R = np.dot(P, Q)
+R = P.dot(Q).T
 print(R)
