@@ -6,3 +6,6 @@ https://www.inf.ed.ac.uk/teaching/courses/nlu/assets/reading/Gurney_et_al.pdf
 
 
 https://web.stanford.edu/~hastie/ElemStatLearn//
+
+virtual-assistant
+https://www.activestate.com/blog/how-to-build-a-digital-virtual-assistant-in-python/
